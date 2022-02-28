@@ -1,5 +1,6 @@
 :root {
     background-color:antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
@@ -14,12 +15,14 @@ html {
 
 body{
 background-color: var(--background-color);
+color:#ffd700;
 }
 
 section[class*="card-main"] {
      width: 20rem;
      box-shadow: 10px 10px 5px 0px rgba(63, 62, 62, 0.75);
-     margin: 1rem auto 1rem auto;
+     margin: 1rem auto 3rem auto;
+     border-radius: 8px;
     
      
 }
@@ -28,24 +31,36 @@ section[class*="card-main"] {
 
  header img {
      display: block;
-    margin: 2rem auto 1rem auto;
+    margin: 0 auto 1rem auto;
     height: 214px;
     width: 100%;
     object-fit: cover;
 
 }
 .card-body{
-   
-    margin: 1rem 0 1rem 0;
+    margin: -1rem 0 0 0;
     padding: 0.5rem 1rem 2rem 1rem;
+    background-color: #000000;
+
  
     
 }
 .title {
 text-align: center;
-border: 2px solid red;
-background-color:#740f74;
 width: 50%;
 margin: 0.5rem auto ;
 padding: 0.8rem 1.5rem;
+font-size: 130%;
 }
+.title-work {
+    text-align: center;
+}
+
+.decoration {
+    background-image: url('images/decoration.PNG');
+    padding:0.8rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    
+
